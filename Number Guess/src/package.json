@@ -1,0 +1,10 @@
+{
+	"name": "Alexa-Number-Guesser",
+	"version": "1.0.0",
+	"description": "Number guessing skill",
+	"main": "index.js",
+	"author": "Alexander Syhabouth",
+	"dependencies": {
+		"alexa-sdk": "^1.0.14"
+	}
+}

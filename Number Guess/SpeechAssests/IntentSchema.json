@@ -1,0 +1,51 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StartOverIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "nameIntent",
+      "samples": [
+        "nameIntent {userName}",
+        "nameIntent my name is {userName}",
+        "nameIntent hello my name is {userName} what is your name"
+      ],
+      "slots": [
+        {
+          "name": "userName",
+          "type": "AMAZON.Person",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "numberIntent",
+      "samples": [
+        "numberIntent {myNumber}",
+        "numberIntent my number is {myNumber}",
+        "numberIntent I think the right number is {myNumber}",
+        "numberIntent I want to say that the number is {myNumber} but I'm not confident in that answer"
+      ],
+      "slots": [
+        {
+          "name": "myNumber",
+          "type": "AMAZON.NUMBER",
+          "samples": []
+        }
+      ]
+    }
+  ]
+}
