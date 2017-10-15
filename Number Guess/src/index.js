@@ -8,7 +8,7 @@ var Alexa = require('alexa-sdk');
 const APP_ID = 'amzn1.ask.skill.bd00bf1a-4ee7-4515-aef7-f72d1688c61b';
 
 const STATES = {
-	// START: '_STARTMODE',	// Restart the session if user wants
+	START: '_STARTMODE',	// Restart the session if user wants
 	GUESS: '_GUESSMODE' 	// Ask user to guess the number.
 };
 
